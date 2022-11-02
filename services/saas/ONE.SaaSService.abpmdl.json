@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "ONE.SaaSService.Domain.Shared": {
+      "path": "src/ONE.SaaSService.Domain.Shared/ONE.SaaSService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.SaaSService.Domain": {
+      "path": "src/ONE.SaaSService.Domain/ONE.SaaSService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.SaaSService.Application.Contracts": {
+      "path": "src/ONE.SaaSService.Application.Contracts/ONE.SaaSService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.SaaSService.Application": {
+      "path": "src/ONE.SaaSService.Application/ONE.SaaSService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.SaaSService.EntityFrameworkCore": {
+      "path": "src/ONE.SaaSService.EntityFrameworkCore/ONE.SaaSService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.SaaSService.MongoDB": {
+      "path": "src/ONE.SaaSService.MongoDB/ONE.SaaSService.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.SaaSService.HttpApi": {
+      "path": "src/ONE.SaaSService.HttpApi/ONE.SaaSService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.SaaSService.HttpApi.Client": {
+      "path": "src/ONE.SaaSService.HttpApi.Client/ONE.SaaSService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.SaaSService.TestBase": {
+      "path": "test/ONE.SaaSService.TestBase/ONE.SaaSService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.SaaSService.EntityFrameworkCore.Tests": {
+      "path": "test/ONE.SaaSService.EntityFrameworkCore.Tests/ONE.SaaSService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.SaaSService.MongoDB.Tests": {
+      "path": "test/ONE.SaaSService.MongoDB.Tests/ONE.SaaSService.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.SaaSService.Domain.Tests": {
+      "path": "test/ONE.SaaSService.Domain.Tests/ONE.SaaSService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.SaaSService.Application.Tests": {
+      "path": "test/ONE.SaaSService.Application.Tests/ONE.SaaSService.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.SaaSService.HttpApi.Host": {
+      "path": "host/ONE.SaaSService.HttpApi.Host/ONE.SaaSService.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.SaaSService.Web": {
+      "path": "src/ONE.SaaSService.Web/ONE.SaaSService.Web.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.SaaSService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ONE.SaaSService.HttpApi.Client.ConsoleTestApp/ONE.SaaSService.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.SaaSService.Web.Host": {
+      "path": "host/ONE.SaaSService.Web.Host/ONE.SaaSService.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.SaaSService.AuthServer": {
+      "path": "host/ONE.SaaSService.AuthServer/ONE.SaaSService.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.SaaSService.Host.Shared": {
+      "path": "host/ONE.SaaSService.Host.Shared/ONE.SaaSService.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.SaaSService.Web.Unified": {
+      "path": "host/ONE.SaaSService.Web.Unified/ONE.SaaSService.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.SaaSService.Blazor": {
+      "path": "src/ONE.SaaSService.Blazor/ONE.SaaSService.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.SaaSService.Blazor.Host": {
+      "path": "host/ONE.SaaSService.Blazor.Host/ONE.SaaSService.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.SaaSService.Blazor.Server": {
+      "path": "src/ONE.SaaSService.Blazor.Server/ONE.SaaSService.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.SaaSService.Blazor.WebAssembly": {
+      "path": "src/ONE.SaaSService.Blazor.WebAssembly/ONE.SaaSService.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.SaaSService.Blazor.Server.Host": {
+      "path": "host/ONE.SaaSService.Blazor.Server.Host/ONE.SaaSService.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

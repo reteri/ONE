@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "ONE.IdentityService.Domain.Shared": {
+      "path": "src/ONE.IdentityService.Domain.Shared/ONE.IdentityService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.IdentityService.Domain": {
+      "path": "src/ONE.IdentityService.Domain/ONE.IdentityService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.IdentityService.Application.Contracts": {
+      "path": "src/ONE.IdentityService.Application.Contracts/ONE.IdentityService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.IdentityService.Application": {
+      "path": "src/ONE.IdentityService.Application/ONE.IdentityService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.IdentityService.EntityFrameworkCore": {
+      "path": "src/ONE.IdentityService.EntityFrameworkCore/ONE.IdentityService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.IdentityService.MongoDB": {
+      "path": "src/ONE.IdentityService.MongoDB/ONE.IdentityService.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.IdentityService.HttpApi": {
+      "path": "src/ONE.IdentityService.HttpApi/ONE.IdentityService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.IdentityService.HttpApi.Client": {
+      "path": "src/ONE.IdentityService.HttpApi.Client/ONE.IdentityService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.IdentityService.TestBase": {
+      "path": "test/ONE.IdentityService.TestBase/ONE.IdentityService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.IdentityService.EntityFrameworkCore.Tests": {
+      "path": "test/ONE.IdentityService.EntityFrameworkCore.Tests/ONE.IdentityService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.IdentityService.MongoDB.Tests": {
+      "path": "test/ONE.IdentityService.MongoDB.Tests/ONE.IdentityService.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.IdentityService.Domain.Tests": {
+      "path": "test/ONE.IdentityService.Domain.Tests/ONE.IdentityService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.IdentityService.Application.Tests": {
+      "path": "test/ONE.IdentityService.Application.Tests/ONE.IdentityService.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.IdentityService.HttpApi.Host": {
+      "path": "host/ONE.IdentityService.HttpApi.Host/ONE.IdentityService.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.IdentityService.Web": {
+      "path": "src/ONE.IdentityService.Web/ONE.IdentityService.Web.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.IdentityService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ONE.IdentityService.HttpApi.Client.ConsoleTestApp/ONE.IdentityService.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.IdentityService.Web.Host": {
+      "path": "host/ONE.IdentityService.Web.Host/ONE.IdentityService.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.IdentityService.AuthServer": {
+      "path": "host/ONE.IdentityService.AuthServer/ONE.IdentityService.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.IdentityService.Host.Shared": {
+      "path": "host/ONE.IdentityService.Host.Shared/ONE.IdentityService.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.IdentityService.Web.Unified": {
+      "path": "host/ONE.IdentityService.Web.Unified/ONE.IdentityService.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.IdentityService.Blazor": {
+      "path": "src/ONE.IdentityService.Blazor/ONE.IdentityService.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.IdentityService.Blazor.Host": {
+      "path": "host/ONE.IdentityService.Blazor.Host/ONE.IdentityService.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.IdentityService.Blazor.Server": {
+      "path": "src/ONE.IdentityService.Blazor.Server/ONE.IdentityService.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.IdentityService.Blazor.WebAssembly": {
+      "path": "src/ONE.IdentityService.Blazor.WebAssembly/ONE.IdentityService.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.IdentityService.Blazor.Server.Host": {
+      "path": "host/ONE.IdentityService.Blazor.Server.Host/ONE.IdentityService.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

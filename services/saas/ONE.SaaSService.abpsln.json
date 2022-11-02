@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "ONE.SaaSService": {
+      "path": "ONE.SaaSService.abpmdl.json"
+    }
+  }
+}

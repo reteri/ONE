@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "ONE.AdministrationService": {
+      "path": "ONE.AdministrationService.abpmdl.json"
+    }
+  }
+}

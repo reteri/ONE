@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "ONE.AdministrationService.Domain.Shared": {
+      "path": "src/ONE.AdministrationService.Domain.Shared/ONE.AdministrationService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.AdministrationService.Domain": {
+      "path": "src/ONE.AdministrationService.Domain/ONE.AdministrationService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.AdministrationService.Application.Contracts": {
+      "path": "src/ONE.AdministrationService.Application.Contracts/ONE.AdministrationService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.AdministrationService.Application": {
+      "path": "src/ONE.AdministrationService.Application/ONE.AdministrationService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.AdministrationService.EntityFrameworkCore": {
+      "path": "src/ONE.AdministrationService.EntityFrameworkCore/ONE.AdministrationService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.AdministrationService.MongoDB": {
+      "path": "src/ONE.AdministrationService.MongoDB/ONE.AdministrationService.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.AdministrationService.HttpApi": {
+      "path": "src/ONE.AdministrationService.HttpApi/ONE.AdministrationService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.AdministrationService.HttpApi.Client": {
+      "path": "src/ONE.AdministrationService.HttpApi.Client/ONE.AdministrationService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.AdministrationService.TestBase": {
+      "path": "test/ONE.AdministrationService.TestBase/ONE.AdministrationService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.AdministrationService.EntityFrameworkCore.Tests": {
+      "path": "test/ONE.AdministrationService.EntityFrameworkCore.Tests/ONE.AdministrationService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.AdministrationService.MongoDB.Tests": {
+      "path": "test/ONE.AdministrationService.MongoDB.Tests/ONE.AdministrationService.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.AdministrationService.Domain.Tests": {
+      "path": "test/ONE.AdministrationService.Domain.Tests/ONE.AdministrationService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.AdministrationService.Application.Tests": {
+      "path": "test/ONE.AdministrationService.Application.Tests/ONE.AdministrationService.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.AdministrationService.HttpApi.Host": {
+      "path": "host/ONE.AdministrationService.HttpApi.Host/ONE.AdministrationService.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.AdministrationService.Web": {
+      "path": "src/ONE.AdministrationService.Web/ONE.AdministrationService.Web.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.AdministrationService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ONE.AdministrationService.HttpApi.Client.ConsoleTestApp/ONE.AdministrationService.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.AdministrationService.Web.Host": {
+      "path": "host/ONE.AdministrationService.Web.Host/ONE.AdministrationService.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.AdministrationService.AuthServer": {
+      "path": "host/ONE.AdministrationService.AuthServer/ONE.AdministrationService.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.AdministrationService.Host.Shared": {
+      "path": "host/ONE.AdministrationService.Host.Shared/ONE.AdministrationService.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.AdministrationService.Web.Unified": {
+      "path": "host/ONE.AdministrationService.Web.Unified/ONE.AdministrationService.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.AdministrationService.Blazor": {
+      "path": "src/ONE.AdministrationService.Blazor/ONE.AdministrationService.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.AdministrationService.Blazor.Host": {
+      "path": "host/ONE.AdministrationService.Blazor.Host/ONE.AdministrationService.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.AdministrationService.Blazor.Server": {
+      "path": "src/ONE.AdministrationService.Blazor.Server/ONE.AdministrationService.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.AdministrationService.Blazor.WebAssembly": {
+      "path": "src/ONE.AdministrationService.Blazor.WebAssembly/ONE.AdministrationService.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.AdministrationService.Blazor.Server.Host": {
+      "path": "host/ONE.AdministrationService.Blazor.Server.Host/ONE.AdministrationService.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

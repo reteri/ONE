@@ -1,0 +1,40 @@
+{
+  "profiles": {
+    "One.IdentityServer": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7010;http://localhost:5001"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  },
+  "ConnectionStrings": {
+    "AdministrationService": "User ID=postgres;Password=1980roly;Host=localhost;Port=5433;Database=ONEAdministrationService;Pooling=false;",
+    "IdentityService": "User ID=postgres;Password=1980roly;Host=localhost;Port=5433;Database=ONEIdentityService;Pooling=false;",
+    "SaaSService": "User ID=postgres;Password=1980roly;Host=localhost;Port=5433;Database=ONESaaSService;Pooling=false;"
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:7010",
+      "sslPort": 7006
+    }
+  }
+}

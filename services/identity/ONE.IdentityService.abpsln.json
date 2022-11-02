@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "ONE.IdentityService": {
+      "path": "ONE.IdentityService.abpmdl.json"
+    }
+  }
+}
