@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.DataProtection;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using ONE.AdministrationService.EntityFrameworkCore;
 using ONE.SaaSService.EntityFrameworkCore;
 using ONE.Shared.Hosting;
 using StackExchange.Redis;
@@ -21,7 +22,8 @@ namespace ONE.SaaSService;
     typeof(ONEHostingModule),
     typeof(SaaSServiceApplicationModule),
     typeof(SaaSServiceEntityFrameworkCoreModule),
-    typeof(SaaSServiceHttpApiModule)
+    typeof(SaaSServiceHttpApiModule),
+    typeof(AdministrationServiceEntityFrameworkCoreModule)
     )]
 public class SaaSServiceHttpApiHostModule : AbpModule
 {

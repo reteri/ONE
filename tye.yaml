@@ -1,27 +1,27 @@
 name: one
 services:
 - name: one-identityserver
-  project: apps/one.IdentityServer/ONE.IdentityServer.csproj
+  project: apps\ONE.IdentityServer\One.IdentityServer\ONE.IdentityServer.csproj
   bindings:
     - protocol: https
-      port: 7000
+      port: 44365
 - name: one-gateway
-  project: gateway/one.Gateway/ONE.Gateway.csproj
+  project: gateway\ONE.Gateway\ONE.Gateway.csproj
   bindings:
     - protocol: https
-      port: 7500
+      port: 44364
 - name: one-administrationservice-httpapi-host
-  project: services/administration/host/ONE.AdministrationService.HttpApi.Host/ONE.AdministrationService.HttpApi.Host.csproj
+  project: services\administration\host\ONE.AdministrationService.HttpApi.Host\ONE.AdministrationService.HttpApi.Host.csproj
   bindings:
     - protocol: https
-      port: 7001
+      port: 44361
 - name: one-identityservice-httpapi-host
-  project: services/identity/host/ONE.IdentityService.HttpApi.Host/ONE.IdentityService.HttpApi.Host.csproj
+  project: services\identity\host\ONE.IdentityService.HttpApi.Host\ONE.IdentityService.HttpApi.Host.csproj
   bindings:
     - protocol: https
-      port: 7002
+      port: 44362
 - name: one-saasservice-httpapi-host
-  project: services/saas/host/ONE.SaaSService.HttpApi.Host/ONE.SaaSService.HttpApi.Host.csproj
+  project: services\saas\host\ONE.SaaSService.HttpApi.Host\ONE.SaaSService.HttpApi.Host.csproj
   bindings:
     - protocol: https
-      port: 7003
+      port: 44363

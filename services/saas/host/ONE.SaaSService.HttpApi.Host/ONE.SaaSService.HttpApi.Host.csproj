@@ -7,13 +7,13 @@
     <RootNamespace>ONE.SaaSService</RootNamespace>
     <PreserveCompilationReferences>true</PreserveCompilationReferences>
     <UserSecretsId>ONE.SaaSService-c2d31439-b723-48e2-b061-5ebd7aeb6010</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..\..</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\..\..\shared\ONE.Shared.Hosting\ONE.Shared.Hosting.csproj" />
+    <ProjectReference Include="..\..\..\administration\src\ONE.AdministrationService.EntityFrameworkCore\ONE.AdministrationService.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\..\src\ONE.SaaSService.HttpApi\ONE.SaaSService.HttpApi.csproj" />
     <ProjectReference Include="..\..\src\ONE.SaaSService.Application\ONE.SaaSService.Application.csproj" />
     <ProjectReference Include="..\..\src\ONE.SaaSService.EntityFrameworkCore\ONE.SaaSService.EntityFrameworkCore.csproj" />
@@ -24,6 +24,10 @@
     <Content Remove="Logs\**" />
     <EmbeddedResource Remove="Logs\**" />
     <None Remove="Logs\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
   </ItemGroup>
 
   <ItemGroup>

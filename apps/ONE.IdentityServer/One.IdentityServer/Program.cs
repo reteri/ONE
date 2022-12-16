@@ -25,7 +25,7 @@ namespace One.IdentityServer
 
             try
             {
-                Log.Information("Starting Tasky.IdentityServer.");
+                Log.Information("Starting ONE.IdentityServer.");
                 var builder = WebApplication.CreateBuilder(args);
                 builder.Host.AddAppSettingsSecretsJson()
                     .UseAutofac()
@@ -38,7 +38,7 @@ namespace One.IdentityServer
             }
             catch (Exception ex)
             {
-                Log.Fatal(ex, "Tasky.IdentityServer terminated unexpectedly!");
+                Log.Fatal(ex, "ONE.IdentityServer terminated unexpectedly!");
                 return 1;
             }
             finally

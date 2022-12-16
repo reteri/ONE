@@ -92,14 +92,14 @@ namespace ONE
 
             Configure<AbpDistributedCacheOptions>(options =>
             {
-                options.KeyPrefix = "Tasky:";
+                options.KeyPrefix = "ONE:";
             });
 
-            var dataProtectionBuilder = context.Services.AddDataProtection().SetApplicationName("Tasky");
+            var dataProtectionBuilder = context.Services.AddDataProtection().SetApplicationName("ONE");
             if (!hostingEnvironment.IsDevelopment())
             {
                 var redis = ConnectionMultiplexer.Connect(configuration["Redis:Configuration"]);
-                dataProtectionBuilder.PersistKeysToStackExchangeRedis(redis, "Tasky-Protection-Keys");
+                dataProtectionBuilder.PersistKeysToStackExchangeRedis(redis, "ONE-Protection-Keys");
             }
 
             context.Services.AddCors(options =>

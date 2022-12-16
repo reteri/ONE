@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ONE.DbMigrator": {
+      "commandName": "Project"
+    },
+    "Docker (1)": {
+      "commandName": "Docker"
+    }
+  }
+}
