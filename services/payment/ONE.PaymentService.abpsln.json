@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "ONE.PaymentService": {
+      "path": "ONE.PaymentService.abpmdl.json"
+    }
+  }
+}

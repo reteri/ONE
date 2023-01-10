@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "ONE.PaymentService.Domain.Shared": {
+      "path": "src/ONE.PaymentService.Domain.Shared/ONE.PaymentService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.PaymentService.Domain": {
+      "path": "src/ONE.PaymentService.Domain/ONE.PaymentService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.PaymentService.Application.Contracts": {
+      "path": "src/ONE.PaymentService.Application.Contracts/ONE.PaymentService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.PaymentService.Application": {
+      "path": "src/ONE.PaymentService.Application/ONE.PaymentService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.PaymentService.EntityFrameworkCore": {
+      "path": "src/ONE.PaymentService.EntityFrameworkCore/ONE.PaymentService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.PaymentService.MongoDB": {
+      "path": "src/ONE.PaymentService.MongoDB/ONE.PaymentService.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.PaymentService.HttpApi": {
+      "path": "src/ONE.PaymentService.HttpApi/ONE.PaymentService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.PaymentService.HttpApi.Client": {
+      "path": "src/ONE.PaymentService.HttpApi.Client/ONE.PaymentService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.PaymentService.TestBase": {
+      "path": "test/ONE.PaymentService.TestBase/ONE.PaymentService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.PaymentService.EntityFrameworkCore.Tests": {
+      "path": "test/ONE.PaymentService.EntityFrameworkCore.Tests/ONE.PaymentService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.PaymentService.MongoDB.Tests": {
+      "path": "test/ONE.PaymentService.MongoDB.Tests/ONE.PaymentService.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.PaymentService.Domain.Tests": {
+      "path": "test/ONE.PaymentService.Domain.Tests/ONE.PaymentService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.PaymentService.Application.Tests": {
+      "path": "test/ONE.PaymentService.Application.Tests/ONE.PaymentService.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.PaymentService.HttpApi.Host": {
+      "path": "host/ONE.PaymentService.HttpApi.Host/ONE.PaymentService.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.PaymentService.Web": {
+      "path": "src/ONE.PaymentService.Web/ONE.PaymentService.Web.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.PaymentService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ONE.PaymentService.HttpApi.Client.ConsoleTestApp/ONE.PaymentService.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "ONE.PaymentService.Web.Host": {
+      "path": "host/ONE.PaymentService.Web.Host/ONE.PaymentService.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.PaymentService.AuthServer": {
+      "path": "host/ONE.PaymentService.AuthServer/ONE.PaymentService.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.PaymentService.Host.Shared": {
+      "path": "host/ONE.PaymentService.Host.Shared/ONE.PaymentService.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.PaymentService.Web.Unified": {
+      "path": "host/ONE.PaymentService.Web.Unified/ONE.PaymentService.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.PaymentService.Blazor": {
+      "path": "src/ONE.PaymentService.Blazor/ONE.PaymentService.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.PaymentService.Blazor.Host": {
+      "path": "host/ONE.PaymentService.Blazor.Host/ONE.PaymentService.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ONE.PaymentService.Blazor.Server": {
+      "path": "src/ONE.PaymentService.Blazor.Server/ONE.PaymentService.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.PaymentService.Blazor.WebAssembly": {
+      "path": "src/ONE.PaymentService.Blazor.WebAssembly/ONE.PaymentService.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "ONE.PaymentService.Blazor.Server.Host": {
+      "path": "host/ONE.PaymentService.Blazor.Server.Host/ONE.PaymentService.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}
